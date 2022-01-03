@@ -1,2 +1,2 @@
-00 9 * * 0-4 source /home/ec2-user/hoikuen-jisan/venv/bin/activate; python notify_jisan.py daily; deactivate
-00 9 * * 6 source /home/ec2-user/hoikuen-jisan/venv/bin/activate; python notify_jisan.py weekly; deactivate
+00 9 * * 0-4 /home/ec2-user/hoikuen-jisan/notify_jisan_daily.sh
+00 9 * * 6 source /home/ec2-user/hoikuen-jisan/notify_jisan_weekly.sh
