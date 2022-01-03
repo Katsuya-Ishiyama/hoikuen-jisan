@@ -1,2 +1,2 @@
-00 9 * * 0-4 /home/ec2-user/hoikuen-jisan/notify_jisan_daily.sh
-00 9 * * 6 source /home/ec2-user/hoikuen-jisan/notify_jisan_weekly.sh
+00 09 * * 0-4 /bin/bash /home/ec2-user/hoikuen-jisan/notify_jisan_daily.sh
+00 09 * * 6 /bin/bash /home/ec2-user/hoikuen-jisan/notify_jisan_weekly.sh
