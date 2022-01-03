@@ -131,3 +131,4 @@ dmypy.json
 .idea/
 settings.yml
 docker/db/data/
+data/db/sqlite3/*.sqlite3
